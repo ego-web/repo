@@ -1,0 +1,88 @@
+﻿<!doctype html>
+<html>
+<head>
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/smartscroll.css">
+	<link rel="stylesheet" href="css/example.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<!--Adobe Edge Runtime-->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <script type="text/javascript" charset="utf-8" src="http://animate.adobe.com/runtime/5.0.1/edge.5.0.1.min.js"></script>
+    <style>        .edgeLoad-EDGE-51834406 { visibility:hidden; }
+    </style>
+	<script>   AdobeEdge.loadComposition('01', 'EDGE-51834406', {}, {"dom":{}}, {"dom":{}});
+	</script>
+<!--Adobe Edge Runtime End-->
+</head>
+
+<body>
+	<div class="section-wrapper">
+		<div class="section" data-hash="a">
+			<div class="image">
+				<div class="EDGE-51834406">
+				</div>
+			</div>
+		</div>
+		<div class="section" data-hash="b">
+			<div id="wave"><img src="images/u_2_rocket.png" class="image" />
+			</div>
+			<div><img src="images/u_2_fon.jpg" height="100%"  class="image"/>
+			</div>			
+		</div>
+		<div class="section" data-hash="d">
+			<div class="centercol">
+				<div class="leftcol"><img src="images/u_1_page_03_1-crop-u126.jpg" width="126px" height="194px" />
+				<div class="psmall"><p ><b>Николай Валиотти,</b> 
+				<br>руководитель отдела стратегического анализа и сценарного планирования компании Юлмарт </p>
+				</div>	
+				</div>	
+				<div class="rightcol" >
+				<p>Мы рады представить вашему вниманию первое исследование «Ulmart: Analytics & Research», подготовленное командой аналитиков Юлмарта в сотрудничестве с компаниями Google Россия, GfK Россия, Comcon и РБК.research.
+Идея нашего проекта возникла неcлучайно: с момента своего основания в 2008 году Юлмарт проводит серьезную работу по сбору и анализу данных, отражающих актуальное состояние отрасли. Владение этой информацией не только позволяет нам глубоко понимать потребности наших клиентов и определять вектор развития собственного бизнеса, но и даёт возможность объективно оценивать текущую ситуацию на российском рынке e-commerce, отслеживать новейшие тренды и обозревать перспективы. Во многом благодаря такой обширной экспертизе Юлмарту удалось стать крупнейшим интернет-ретейлером России.
+Мы надеемся, что наше исследование станет ценным источником информации для всех, кто интересуется вопросами развития интернет-торговли и смежных отраслей.</p>
+				</div>			
+			</div>
+		</div>
+		<div class="section" data-hash="c">
+					<div class="centercol">
+
+				<div class="rightcol" >
+				<p>Мы рады представить вашему вниманию первое исследование «Ulmart: Analytics & Research», подготовленное командой аналитиков Юлмарта в сотрудничестве с компаниями Google Россия, GfK Россия, Comcon и РБК.research.
+Идея нашего проекта возникла неcлучайно: с момента своего основания в 2008 году Юлмарт проводит серьезную работу по сбору и анализу данных, отражающих актуальное состояние отрасли. Владение этой информацией не только позволяет нам глубоко понимать потребности наших клиентов и определять вектор развития собственного бизнеса, но и даёт возможность объективно оценивать текущую ситуацию на российском рынке e-commerce, отслеживать новейшие тренды и обозревать перспективы. Во многом благодаря такой обширной экспертизе Юлмарту удалось стать крупнейшим интернет-ретейлером России.
+Мы надеемся, что наше исследование станет ценным источником информации для всех, кто интересуется вопросами развития интернет-торговли и смежных отраслей.</p>
+				</div>			
+			</div>
+</div>	
+		<div class="section" data-hash="d">
+<div class="centercol">
+				<div class="leftcol"><img src="images/u_1_page_03_1-crop-u126.jpg" width="126px" height="194px" />
+				<div class="psmall"><p ><b>Николай Валиотти,</b> 
+				<br>руководитель отдела стратегического анализа и сценарного планирования компании Юлмарт </p>
+				</div>	
+				</div>				
+			</div>
+</div>	
+	</div>
+	
+	<script type="text/javascript" src="bower_components/lethargy/lethargy.min.js"></script>
+	<script type="text/javascript" src="smartscroll.js"></script>
+	<script>
+		$.smartscroll({});
+	</script>
+		<script>
+		$(document).ready(function() {
+	onScrollFun();
+	$(window).resize(onScrollFun);
+});
+$(window).on('scroll',onScrollFun);
+function onScrollFun(){
+    var cScroll = $(this).scrollTop(),
+        y = $(window).height()-(cScroll-$(window).height())-$(window).height()/15,
+        x = $(window).width()/2;
+    $('#wave').offset({top: y, left: x});
+};
+	</script>
+
+</body>
+</html>
